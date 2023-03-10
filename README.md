@@ -6,6 +6,7 @@ Use this `Dockerfile` to build a custom image based on `bioconductor/bioconducto
 - personalized defaults towards RStudio appearance, Rmarkdown and save/load settings (always clean environment, no autosaves)
 - an `renv` lockfile documenting all package versions after the build process in `/r_user_lib/lockfile_initial.json`
 - set `/projectdir` as default path inside RStudio
+- use `RhpcBLASctl` to disable implicit BLAS/OMP multithreading
 
 Build:
 
