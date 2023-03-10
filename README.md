@@ -1,5 +1,7 @@
 # README
 
+![CI](https://github.com/ATpoint/dockerBioc/actions/workflows/actions.yml/badge.svg)
+
 Use this `Dockerfile` to build a custom image based on `bioconductor/bioconductor_docker:RELEASE_X_Y` with:
 
 - several boilerplate packages installed (`pak, renv, RhpcBLASctl, rmdformats, bookdown, markdown, rmarkdown, remotes`)
