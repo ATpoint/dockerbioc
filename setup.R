@@ -9,5 +9,3 @@ install.packages("pak")
 pkgs <- c("renv", "RhpcBLASctl", "rmdformats", "bookdown", "markdown", "rmarkdown", "remotes", "devtools")
 pak::pkg_install(pkgs)
 pak::cache_clean()
-
-renv::snapshot(packages=rownames(installed.packages()), lockfile="/r_user_lib/lockfile_initial.json", prompt=FALSE)

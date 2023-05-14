@@ -17,8 +17,6 @@ Build:
 docker build -t user/name:version .
 ```
 
-Currently, the latest version at Github is `atpoint/dockerbioc:3.17-0`.
-
 Launch RStudio-Server: 
 
 ```bash
