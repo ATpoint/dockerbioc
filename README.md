@@ -1,7 +1,8 @@
 # README
 
 ![CI](https://github.com/ATpoint/dockerBioc/actions/workflows/actions.yml/badge.svg)
-
+![BiocVersion](https://img.shields.io/badge/Bioconductor%20version-3.17-000000?labelColor=87b13f&logo=r)
+   
 Use this `Dockerfile` to build a custom image based on `bioconductor/bioconductor_docker:RELEASE_X_Y` with:
 
 - several boilerplate packages installed (`pak, renv, RhpcBLASctl, rmdformats, bookdown, markdown, rmarkdown, remotes`)
@@ -15,6 +16,8 @@ Build:
 ```bash
 docker build -t user/name:version .
 ```
+
+Currently, the latest version at Github is `atpoint/dockerbioc:3.17-0`.
 
 Launch RStudio-Server: 
 

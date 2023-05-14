@@ -1,5 +1,5 @@
-ARG R_BIOC_VERSION=3.16
-ARG R_BIOC_DOCKER=RELEASE_3_16
+ARG R_BIOC_VERSION=3.17
+ARG R_BIOC_DOCKER=RELEASE_3_17
 
 # Template from Dockerhub
 FROM bioconductor/bioconductor_docker:${R_BIOC_DOCKER}
